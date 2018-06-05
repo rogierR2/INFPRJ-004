@@ -2753,6 +2753,15 @@ namespace QuickMath
 			public static int txtcopyright = 0;
 			
 			// aapt resource value: 0
+			public static int txtnumber1 = 0;
+			
+			// aapt resource value: 0
+			public static int txtstreak = 0;
+			
+			// aapt resource value: 0
+			public static int txttimer = 0;
+			
+			// aapt resource value: 0
 			public static int txttitle = 0;
 			
 			// aapt resource value: 2131493004

@@ -18,6 +18,7 @@ namespace QuickMath
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            SetContentView(Resource.Layout.exercise);
 
             // Create your application here
 
@@ -25,7 +26,7 @@ namespace QuickMath
 
             btnStop.Click += delegate
             {
-                this.Finish();
+                Finish();
             };
         }
     }

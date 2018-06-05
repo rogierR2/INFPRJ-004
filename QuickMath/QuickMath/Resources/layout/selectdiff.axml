@@ -16,23 +16,29 @@
         android:text="Optelsommen (+)"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnoptelsom" />
+        android:id="@+id/btnoptelsom"
+        android:layout_marginLeft="70.0dp"
+        android:layout_marginRight="70.0dp" />
     <Button
         android:text="Aftreksommen (-)"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnaftreksom" />
+        android:id="@+id/btnaftreksom"
+        android:layout_marginLeft="70.0dp"
+        android:layout_marginRight="70.0dp" />
     <Button
         android:text="Gemixt (+ en -)"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btngemixtesom" />
+        android:id="@+id/btngemixtesom"
+        android:layout_marginLeft="70.0dp"
+        android:layout_marginRight="70.0dp" />
     <Button
         android:text="Terug"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnback"
         android:layout_marginLeft="21.7dp"
-        android:layout_marginRight="142.1dp"
-        android:layout_marginTop="59.0dp" />
+        android:layout_marginRight="232.1dp"
+        android:layout_marginTop="208.7dp" />
 </LinearLayout>

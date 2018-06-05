@@ -29,7 +29,7 @@ namespace QuickMath
 
             btnBack.Click += delegate
             {
-                this.Finish();
+                Finish();
             };
 
             btnOptelsom.Click += (s, e) =>
