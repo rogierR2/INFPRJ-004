@@ -20,6 +20,13 @@ namespace QuickMath
             base.OnCreate(savedInstanceState);
 
             // Create your application here
+
+            var btnStop = FindViewById<Button>(Resource.Id.btnstop);
+
+            btnStop.Click += delegate
+            {
+                this.Finish();
+            };
         }
     }
 }

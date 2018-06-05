@@ -18,26 +18,26 @@
         android:layout_height="77.7dp"
         android:layout_below="@+id/imglogo"
         android:id="@+id/btnstart"
-        android:layout_marginLeft="80.0dp"
-        android:layout_marginRight="80.0dp"
-        android:layout_marginBottom="33.5dp"
-        android:layout_marginTop="43.2dp" />
+        android:layout_marginLeft="45.3dp"
+        android:layout_marginRight="33.0dp"
+        android:layout_marginBottom="33.0dp"
+        android:layout_marginTop="14.9dp" />
     <Button
         android:text="Galerij"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnstart"
         android:id="@+id/btngallery"
-        android:layout_marginLeft="80.0dp"
-        android:layout_marginRight="80.0dp" />
+        android:layout_marginLeft="0.0dp"
+        android:layout_marginRight="0.0dp" />
     <Button
         android:text="Instellingen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btngallery"
         android:id="@+id/btninstellingen"
-        android:layout_marginLeft="80.0dp"
-        android:layout_marginRight="80.0dp" />
+        android:layout_marginLeft="0.0dp"
+        android:layout_marginRight="0.0dp" />
     <TextView
         android:text="©QuickMath 2018"
         android:textAppearance="?android:attr/textAppearanceSmall"

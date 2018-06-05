@@ -69,6 +69,9 @@ namespace QuickMath
 			// aapt resource value: 2130771982
 			public static int design_snackbar_out = 2130771982;
 			
+			// aapt resource value: 0
+			public static int slight_right = 0;
+			
 			// aapt resource value: 2130771983
 			public static int tooltip_enter = 2130771983;
 			
@@ -2384,6 +2387,9 @@ namespace QuickMath
 			public static int btnaftreksom = 0;
 			
 			// aapt resource value: 0
+			public static int btnback = 0;
+			
+			// aapt resource value: 0
 			public static int btngallery = 0;
 			
 			// aapt resource value: 0
@@ -2397,6 +2403,9 @@ namespace QuickMath
 			
 			// aapt resource value: 0
 			public static int btnstart = 0;
+			
+			// aapt resource value: 0
+			public static int btnstop = 0;
 			
 			// aapt resource value: 2131492891
 			public static int buttonPanel = 2131492891;

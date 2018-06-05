@@ -21,7 +21,33 @@ namespace QuickMath
 
             // Create your application here
             SetContentView(Resource.Layout.selectdiff);
-            +
+
+            var btnOptelsom = FindViewById<Button>(Resource.Id.btnoptelsom);
+            var btnAftreksom = FindViewById<Button>(Resource.Id.btnaftreksom);
+            var btnGemixtesom = FindViewById<Button>(Resource.Id.btngemixtesom);
+            var btnBack = FindViewById<Button>(Resource.Id.btnback);
+
+            btnBack.Click += delegate
+            {
+                this.Finish();
+            };
+
+            btnOptelsom.Click += (s, e) =>
+            {
+                Intent nextActivity = new Intent(this, typeof(exercise));
+                StartActivity(nextActivity);
+            };
+
+            btnAftreksom.Click += (s, e) =>
+            {
+                Intent nextActivity = new Intent(this, typeof(exercise));
+                StartActivity(nextActivity);
+            };
+
+            btnGemixtesom.Click += (s, e) =>
+            {
+                Intent nextActivity = new Intent(this, typeof(exercise));
+                StartActivity(nextActivity);
+            };
         }
-    }
 }

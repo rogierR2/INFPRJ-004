@@ -56,5 +56,5 @@ D:\Rogier\Documenten\INFPRJ 4-2\INFPRJ-004\QuickMath\QuickMath\obj\Debug\linksrc
 D:\Rogier\Documenten\INFPRJ 4-2\INFPRJ-004\QuickMath\QuickMath\bin\Debug\QuickMath.dll.mdb
 D:\Rogier\Documenten\INFPRJ 4-2\INFPRJ-004\QuickMath\QuickMath\obj\Debug\android\assets\QuickMath.dll.mdb
 D:\Rogier\Documenten\INFPRJ 4-2\INFPRJ-004\QuickMath\QuickMath\obj\Debug\res\layout\exercise.xml
-D:\Rogier\Documenten\INFPRJ 4-2\INFPRJ-004\QuickMath\QuickMath\bin\Debug\QuickMath.dll
-D:\Rogier\Documenten\INFPRJ 4-2\INFPRJ-004\QuickMath\QuickMath\obj\Debug\linksrc\QuickMath.dll.mdb
+D:\Rogier\Documenten\INFPRJ 4-2\INFPRJ-004\QuickMath\QuickMath\obj\Debug\res\layout\selectdiff.xml
+D:\Rogier\Documenten\INFPRJ 4-2\INFPRJ-004\QuickMath\QuickMath\obj\Debug\res\anim\slight_right.xml

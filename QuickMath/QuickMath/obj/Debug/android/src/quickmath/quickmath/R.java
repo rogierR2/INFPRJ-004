@@ -23,8 +23,9 @@ public final class R {
         public static final int design_bottom_sheet_slide_out=0x7f05000b;
         public static final int design_snackbar_in=0x7f05000c;
         public static final int design_snackbar_out=0x7f05000d;
-        public static final int tooltip_enter=0x7f05000e;
-        public static final int tooltip_exit=0x7f05000f;
+        public static final int slight_right=0x7f05000e;
+        public static final int tooltip_enter=0x7f05000f;
+        public static final int tooltip_exit=0x7f050010;
     }
     public static final class animator {
         public static final int design_appbar_state_list_animator=0x7f060000;
@@ -2981,8 +2982,12 @@ containing a value of this type.
         public static final int beginning=0x7f08002f;
         public static final int blocking=0x7f080057;
         public static final int bottom=0x7f08003d;
+        public static final int btnaftreksom=0x7f0800b3;
+        public static final int btnback=0x7f0800b5;
         public static final int btngallery=0x7f08008d;
+        public static final int btngemixtesom=0x7f0800b4;
         public static final int btninstellingen=0x7f08008e;
+        public static final int btnoptelsom=0x7f0800b2;
         public static final int btnstart=0x7f08008c;
         public static final int buttonPanel=0x7f080063;
         public static final int cancel_action=0x7f0800a2;
@@ -3037,9 +3042,9 @@ containing a value of this type.
         public static final int line3=0x7f080018;
         public static final int listMode=0x7f08001d;
         public static final int list_item=0x7f080061;
-        public static final int masked=0x7f0800b3;
+        public static final int masked=0x7f0800b8;
         public static final int media_actions=0x7f0800a4;
-        public static final int message=0x7f0800b1;
+        public static final int message=0x7f0800b6;
         public static final int middle=0x7f080031;
         public static final int mini=0x7f080053;
         public static final int multiply=0x7f080028;
@@ -3119,11 +3124,12 @@ containing a value of this type.
         public static final int transition_scene_layoutid_cache=0x7f080012;
         public static final int transition_transform=0x7f080013;
         public static final int txtcopyright=0x7f08008f;
+        public static final int txttitle=0x7f0800b1;
         public static final int uniform=0x7f08002d;
         public static final int up=0x7f080009;
         public static final int useLogo=0x7f080026;
         public static final int view_offset_helper=0x7f080016;
-        public static final int visible=0x7f0800b2;
+        public static final int visible=0x7f0800b7;
         public static final int withText=0x7f08003c;
         public static final int wrap_content=0x7f08002e;
     }
@@ -3200,8 +3206,9 @@ containing a value of this type.
         public static final int select_dialog_item_material=0x7f040039;
         public static final int select_dialog_multichoice_material=0x7f04003a;
         public static final int select_dialog_singlechoice_material=0x7f04003b;
-        public static final int support_simple_spinner_dropdown_item=0x7f04003c;
-        public static final int tooltip=0x7f04003d;
+        public static final int selectdiff=0x7f04003c;
+        public static final int support_simple_spinner_dropdown_item=0x7f04003d;
+        public static final int tooltip=0x7f04003e;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
