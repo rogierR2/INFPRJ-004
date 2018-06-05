@@ -30,6 +30,8 @@ namespace QuickMath
 
             btnStop.Click += delegate
             {
+                Toast.MakeText(this, "Spel beëindigd.", ToastLength.Short).Show();
+                timer.Stop();
                 Finish();
             };
 
