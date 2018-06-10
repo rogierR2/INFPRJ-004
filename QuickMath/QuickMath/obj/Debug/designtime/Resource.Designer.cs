@@ -24,6 +24,10 @@ namespace QuickMath
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
+		public static void UpdateIdValues()
+		{
+		}
+		
 		public partial class Animation
 		{
 			
@@ -2387,6 +2391,18 @@ namespace QuickMath
 			public static int btnaftreksom = 0;
 			
 			// aapt resource value: 0
+			public static int btnanswer1 = 0;
+			
+			// aapt resource value: 0
+			public static int btnanswer2 = 0;
+			
+			// aapt resource value: 0
+			public static int btnanswer3 = 0;
+			
+			// aapt resource value: 0
+			public static int btnanswer4 = 0;
+			
+			// aapt resource value: 0
 			public static int btnback = 0;
 			
 			// aapt resource value: 0
@@ -2969,6 +2985,9 @@ namespace QuickMath
 			
 			// aapt resource value: 0
 			public static int exercise = 0;
+			
+			// aapt resource value: 0
+			public static int gallery = 0;
 			
 			// aapt resource value: 2131689473
 			public static int notification_action = 2131689473;
