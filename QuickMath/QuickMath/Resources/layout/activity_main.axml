@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/imglogo"
         android:layout_marginTop="10.8dp"
-        android:src="@android:drawable/ic_menu_gallery"
+        android:src="@drawable/title"
         android:maxHeight="100dp"
         android:baselineAlignBottom="false" />
     <Button

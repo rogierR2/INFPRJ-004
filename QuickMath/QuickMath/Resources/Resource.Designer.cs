@@ -74,13 +74,10 @@ namespace QuickMath
 			public const int design_snackbar_out = 2131034125;
 			
 			// aapt resource value: 0x7f05000e
-			public const int slight_right = 2131034126;
+			public const int tooltip_enter = 2131034126;
 			
 			// aapt resource value: 0x7f05000f
-			public const int tooltip_enter = 2131034127;
-			
-			// aapt resource value: 0x7f050010
-			public const int tooltip_exit = 2131034128;
+			public const int tooltip_exit = 2131034127;
 			
 			static Animation()
 			{
@@ -2230,26 +2227,26 @@ namespace QuickMath
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f02006a
-			public const int avd_hide_password_1 = 2130837610;
+			// aapt resource value: 0x7f02006e
+			public const int avd_hide_password_1 = 2130837614;
 			
-			// aapt resource value: 0x7f02006b
-			public const int avd_hide_password_2 = 2130837611;
+			// aapt resource value: 0x7f02006f
+			public const int avd_hide_password_2 = 2130837615;
 			
-			// aapt resource value: 0x7f02006c
-			public const int avd_hide_password_3 = 2130837612;
+			// aapt resource value: 0x7f020070
+			public const int avd_hide_password_3 = 2130837616;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f02006d
-			public const int avd_show_password_1 = 2130837613;
+			// aapt resource value: 0x7f020071
+			public const int avd_show_password_1 = 2130837617;
 			
-			// aapt resource value: 0x7f02006e
-			public const int avd_show_password_2 = 2130837614;
+			// aapt resource value: 0x7f020072
+			public const int avd_show_password_2 = 2130837618;
 			
-			// aapt resource value: 0x7f02006f
-			public const int avd_show_password_3 = 2130837615;
+			// aapt resource value: 0x7f020073
+			public const int avd_show_password_3 = 2130837619;
 			
 			// aapt resource value: 0x7f020055
 			public const int design_bottom_navigation_item_background = 2130837589;
@@ -2270,49 +2267,61 @@ namespace QuickMath
 			public const int design_snackbar_background = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int navigation_empty_icon = 2130837595;
+			public const int Fortnite1 = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int notification_action_background = 2130837596;
+			public const int Fortnite2 = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int notification_bg = 2130837597;
+			public const int Fortnite3 = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int notification_bg_low = 2130837598;
+			public const int navigation_empty_icon = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int notification_bg_low_normal = 2130837599;
+			public const int notification_action_background = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int notification_bg_low_pressed = 2130837600;
+			public const int notification_bg = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int notification_bg_normal = 2130837601;
+			public const int notification_bg_low = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int notification_bg_normal_pressed = 2130837602;
+			public const int notification_bg_low_normal = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int notification_icon_background = 2130837603;
-			
-			// aapt resource value: 0x7f020068
-			public const int notification_template_icon_bg = 2130837608;
-			
-			// aapt resource value: 0x7f020069
-			public const int notification_template_icon_low_bg = 2130837609;
+			public const int notification_bg_low_pressed = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int notification_tile_bg = 2130837604;
+			public const int notification_bg_normal = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int notify_panel_notification_icon_bg = 2130837605;
+			public const int notification_bg_normal_pressed = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int tooltip_frame_dark = 2130837606;
+			public const int notification_icon_background = 2130837606;
+			
+			// aapt resource value: 0x7f02006c
+			public const int notification_template_icon_bg = 2130837612;
+			
+			// aapt resource value: 0x7f02006d
+			public const int notification_template_icon_low_bg = 2130837613;
 			
 			// aapt resource value: 0x7f020067
-			public const int tooltip_frame_light = 2130837607;
+			public const int notification_tile_bg = 2130837607;
+			
+			// aapt resource value: 0x7f020068
+			public const int notify_panel_notification_icon_bg = 2130837608;
+			
+			// aapt resource value: 0x7f020069
+			public const int title = 2130837609;
+			
+			// aapt resource value: 0x7f02006a
+			public const int tooltip_frame_dark = 2130837610;
+			
+			// aapt resource value: 0x7f02006b
+			public const int tooltip_frame_light = 2130837611;
 			
 			static Drawable()
 			{
@@ -2432,14 +2441,14 @@ namespace QuickMath
 			// aapt resource value: 0x7f08003d
 			public const int bottom = 2131230781;
 			
+			// aapt resource value: 0x7f0800ac
+			public const int btnDownloadWP1 = 2131230892;
+			
 			// aapt resource value: 0x7f0800ad
-			public const int btnDownloadWP1 = 2131230893;
+			public const int btnDownloadWP2 = 2131230893;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int btnDownloadWP2 = 2131230894;
-			
-			// aapt resource value: 0x7f0800b0
-			public const int btnDownloadWP3 = 2131230896;
+			// aapt resource value: 0x7f0800af
+			public const int btnDownloadWP3 = 2131230895;
 			
 			// aapt resource value: 0x7f0800c6
 			public const int btnaftreksom = 2131230918;
@@ -2456,8 +2465,8 @@ namespace QuickMath
 			// aapt resource value: 0x7f0800a8
 			public const int btnanswer4 = 2131230888;
 			
-			// aapt resource value: 0x7f0800c8
-			public const int btnback = 2131230920;
+			// aapt resource value: 0x7f0800b0
+			public const int btnback = 2131230896;
 			
 			// aapt resource value: 0x7f08008d
 			public const int btngallery = 2131230861;
@@ -2491,9 +2500,6 @@ namespace QuickMath
 			
 			// aapt resource value: 0x7f080047
 			public const int center_vertical = 2131230791;
-			
-			// aapt resource value: 0x7f0800a9
-			public const int checkableImageButton1 = 2131230889;
 			
 			// aapt resource value: 0x7f080073
 			public const int checkbox = 2131230835;
@@ -2609,14 +2615,14 @@ namespace QuickMath
 			// aapt resource value: 0x7f08005f
 			public const int image = 2131230815;
 			
+			// aapt resource value: 0x7f0800aa
+			public const int imgWallpaper1 = 2131230890;
+			
 			// aapt resource value: 0x7f0800ab
-			public const int imgWallpaper1 = 2131230891;
+			public const int imgWallpaper2 = 2131230891;
 			
-			// aapt resource value: 0x7f0800ac
-			public const int imgWallpaper2 = 2131230892;
-			
-			// aapt resource value: 0x7f0800af
-			public const int imgWallpaper3 = 2131230895;
+			// aapt resource value: 0x7f0800ae
+			public const int imgWallpaper3 = 2131230894;
 			
 			// aapt resource value: 0x7f08008b
 			public const int imglogo = 2131230859;
@@ -2648,14 +2654,14 @@ namespace QuickMath
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800cb
-			public const int masked = 2131230923;
+			// aapt resource value: 0x7f0800ca
+			public const int masked = 2131230922;
 			
 			// aapt resource value: 0x7f0800b7
 			public const int media_actions = 2131230903;
 			
-			// aapt resource value: 0x7f0800c9
-			public const int message = 2131230921;
+			// aapt resource value: 0x7f0800c8
+			public const int message = 2131230920;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -2708,8 +2714,8 @@ namespace QuickMath
 			// aapt resource value: 0x7f080075
 			public const int radio = 2131230837;
 			
-			// aapt resource value: 0x7f0800aa
-			public const int relativeLayout1 = 2131230890;
+			// aapt resource value: 0x7f0800a9
+			public const int relativeLayout1 = 2131230889;
 			
 			// aapt resource value: 0x7f08004a
 			public const int right = 2131230794;
@@ -2930,8 +2936,8 @@ namespace QuickMath
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800ca
-			public const int visible = 2131230922;
+			// aapt resource value: 0x7f0800c9
+			public const int visible = 2131230921;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;

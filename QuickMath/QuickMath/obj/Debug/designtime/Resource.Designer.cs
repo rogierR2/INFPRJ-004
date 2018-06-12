@@ -69,9 +69,6 @@ namespace QuickMath
 			// aapt resource value: 2130771982
 			public static int design_snackbar_out = 2130771982;
 			
-			// aapt resource value: 0
-			public static int slight_right = 0;
-			
 			// aapt resource value: 2130771983
 			public static int tooltip_enter = 2130771983;
 			
@@ -2247,6 +2244,15 @@ namespace QuickMath
 			// aapt resource value: 2131296347
 			public static int design_snackbar_background = 2131296347;
 			
+			// aapt resource value: 0
+			public static int Fortnite1 = 0;
+			
+			// aapt resource value: 0
+			public static int Fortnite2 = 0;
+			
+			// aapt resource value: 0
+			public static int Fortnite3 = 0;
+			
 			// aapt resource value: 2131296348
 			public static int navigation_empty_icon = 2131296348;
 			
@@ -2285,6 +2291,9 @@ namespace QuickMath
 			
 			// aapt resource value: 2131296268
 			public static int notify_panel_notification_icon_bg = 2131296268;
+			
+			// aapt resource value: 0
+			public static int title = 0;
 			
 			// aapt resource value: 2131296361
 			public static int tooltip_frame_dark = 2131296361;
@@ -2436,9 +2445,6 @@ namespace QuickMath
 			
 			// aapt resource value: 2131492893
 			public static int center = 2131492893;
-			
-			// aapt resource value: 0
-			public static int checkableImageButton1 = 0;
 			
 			// aapt resource value: 2131492894
 			public static int checkbox = 2131492894;

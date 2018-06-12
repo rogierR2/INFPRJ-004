@@ -5,6 +5,7 @@ using System.Text;
 
 using Android.App;
 using Android.Content;
+using Android.Media;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.V7.App;
@@ -20,15 +21,21 @@ namespace QuickMath
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.gallery);
-
             var btnDownloadWallpaper1 = FindViewById<Button>(Resource.Id.btnDownloadWP1);
             var btnDownloadWallpaper2 = FindViewById<Button>(Resource.Id.btnDownloadWP2);
             var btnDownloadWallpaper3 = FindViewById<Button>(Resource.Id.btnDownloadWP3);
-            var imgWallpaper1 = FindViewById<ImageView>(Resource.Id.imgWallpaper1);
+            var imgWallpaper1 = FindViewById<ImageView>(Resource.Id.imgWallpaper3);
             var imgWallpaper2 = FindViewById<ImageView>(Resource.Id.imgWallpaper2);
-            var imgWallpaper3 = FindViewById<ImageView>(Resource.Id.imgWallpaper3);
+            var imgWallpaper3 = FindViewById<ImageView>(Resource.Id.imgWallpaper1);
+            /*int resourceId1 = (int)typeof(Resource.Drawable).GetField("Fortnite1").GetValue(null);
+            int resourceId2 = (int)typeof(Resource.Drawable).GetField("Fortnite2").GetValue(null);
+            int resourceId3 = (int)typeof(Resource.Drawable).GetField("Fortnite3").GetValue(null);
 
+            imgWallpaper1.SetImageResource(resourceId1);
+            imgWallpaper2.SetImageResource(resourceId2);
+            imgWallpaper3.SetImageResource(resourceId3);*/
 
+            var btnBack = FindViewById<Button>(Resource.Id.btnback);
 
             btnDownloadWallpaper1.Click += delegate
             {
@@ -46,6 +53,11 @@ namespace QuickMath
             {
                 DownloadWallpaper download = new DownloadWallpaper(this, imgWallpaper3);
                 download.Execute("https://i.imgur.com/GLlaRLf.png");
+            };
+
+            btnBack.Click += delegate
+            {
+                Finish();
             };
         }
     }

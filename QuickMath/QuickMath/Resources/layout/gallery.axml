@@ -3,23 +3,19 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <android.support.design.widget.CheckableImageButton
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/checkableImageButton1" />
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/relativeLayout1">
         <ImageView
-            android:src="@android:drawable/ic_menu_gallery"
             android:layout_width="160.0dp"
             android:layout_height="250.0dp"
             android:id="@+id/imgWallpaper1"
             android:layout_marginLeft="4.0dp"
-            android:layout_marginRight="4.0dp" />
+            android:layout_marginRight="4.0dp"
+            android:src="@drawable/Fortnite1" />
         <ImageView
-            android:src="@android:drawable/ic_menu_gallery"
+            android:src="@drawable/Fortnite2"
             android:layout_width="160.0dp"
             android:layout_height="250.0dp"
             android:id="@+id/imgWallpaper2"
@@ -33,7 +29,8 @@
             android:layout_below="@+id/imgWallpaper1"
             android:id="@+id/btnDownloadWP1"
             android:layout_marginLeft="4.0dp"
-            android:layout_marginRight="4.0dp" />
+            android:layout_marginRight="4.0dp"
+            android:layout_marginBottom="10.3dp" />
         <Button
             android:text="Download wallpaper"
             android:layout_width="160.0dp"
@@ -44,7 +41,7 @@
             android:layout_marginRight="4.0dp"
             android:layout_toRightOf="@+id/btnDownloadWP1" />
         <ImageView
-            android:src="@android:drawable/ic_menu_gallery"
+            android:src="@drawable/Fortnite3"
             android:layout_width="160.0dp"
             android:layout_height="250.0dp"
             android:layout_below="@+id/btnDownloadWP1"
@@ -59,5 +56,11 @@
             android:id="@+id/btnDownloadWP3"
             android:layout_marginLeft="4.0dp"
             android:layout_marginRight="4.0dp" />
+        <Button
+            android:text="Terug"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnDownloadWP3"
+            android:id="@+id/btnback" />
     </RelativeLayout>
 </LinearLayout>
