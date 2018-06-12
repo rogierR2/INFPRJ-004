@@ -17,7 +17,10 @@ namespace QuickMath
     {
         Timer timer;
         private TextView txtTimer;
-        private int count = 10;
+        private TextView txtScore;
+        private int count = 60;
+
+        private int score = 0;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -36,10 +39,37 @@ namespace QuickMath
             };
 
             txtTimer = FindViewById<TextView>(Resource.Id.txttimer);
+            txtScore = FindViewById<TextView>(Resource.Id.txtstreak);
 
+            var correctAns = FindViewById<Button>(Resource.Id.btnanswer1);
+            var wrongAns = FindViewById<Button>(Resource.Id.btnanswer2);
 
+            correctAns.Click += delegate
+            {
+                score++;
+                RunOnUiThread(() =>
+                {
+                    txtScore.Text = score + "🔥";
+                });
+            };
 
+            wrongAns.Click += delegate
+            {
+                count-=5;
+                score = 0;
+
+                RunOnUiThread(() =>
+                {
+                    txtTimer.Text = "Tijd: " + count;
+                });
+
+                RunOnUiThread(() =>
+                {
+                    txtScore.Text = score + "🔥";
+                });
+            };
         }
+
         protected override void OnResume()
         {
             base.OnResume();

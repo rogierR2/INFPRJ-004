@@ -12,4 +12,8 @@
     <ResultingAbi></ResultingAbi>
     <SdkVersion>26</SdkVersion>
   </Device>
+  <Device id="CVH7N15B12004478">
+    <ResultingAbi></ResultingAbi>
+    <SdkVersion>27</SdkVersion>
+  </Device>
 </Devices>

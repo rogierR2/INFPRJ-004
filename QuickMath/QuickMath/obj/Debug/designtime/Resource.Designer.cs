@@ -24,10 +24,6 @@ namespace QuickMath
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
-		public static void UpdateIdValues()
-		{
-		}
-		
 		public partial class Animation
 		{
 			
@@ -2406,6 +2402,15 @@ namespace QuickMath
 			public static int btnback = 0;
 			
 			// aapt resource value: 0
+			public static int btnDownloadWP1 = 0;
+			
+			// aapt resource value: 0
+			public static int btnDownloadWP2 = 0;
+			
+			// aapt resource value: 0
+			public static int btnDownloadWP3 = 0;
+			
+			// aapt resource value: 0
 			public static int btngallery = 0;
 			
 			// aapt resource value: 0
@@ -2431,6 +2436,9 @@ namespace QuickMath
 			
 			// aapt resource value: 2131492893
 			public static int center = 2131492893;
+			
+			// aapt resource value: 0
+			public static int checkableImageButton1 = 0;
 			
 			// aapt resource value: 2131492894
 			public static int checkbox = 2131492894;
@@ -2516,6 +2524,15 @@ namespace QuickMath
 			// aapt resource value: 0
 			public static int imglogo = 0;
 			
+			// aapt resource value: 0
+			public static int imgWallpaper1 = 0;
+			
+			// aapt resource value: 0
+			public static int imgWallpaper2 = 0;
+			
+			// aapt resource value: 0
+			public static int imgWallpaper3 = 0;
+			
 			// aapt resource value: 2131492876
 			public static int info = 2131492876;
 			
@@ -2596,6 +2613,9 @@ namespace QuickMath
 			
 			// aapt resource value: 2131492947
 			public static int radio = 2131492947;
+			
+			// aapt resource value: 0
+			public static int relativeLayout1 = 0;
 			
 			// aapt resource value: 2131492948
 			public static int right = 2131492948;

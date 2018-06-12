@@ -28,6 +28,12 @@ namespace QuickMath
                 Intent nextActivity = new Intent(this, typeof(selectdiff));
                 StartActivity(nextActivity);
             };
+
+            btnGallery.Click += (s, e) =>
+            {
+                Intent nextActivity = new Intent(this, typeof(Gallery));
+                StartActivity(nextActivity);
+            };
         }
     }
 }
