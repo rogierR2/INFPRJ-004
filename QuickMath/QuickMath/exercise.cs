@@ -16,8 +16,11 @@ namespace QuickMath
     public class exercise : Activity
     {
         Timer timer;
+        Random r = new Random();
         private TextView txtTimer;
         private TextView txtScore;
+        private TextView txtnumber1;
+        private TextView txtnumber2;
         private int count = 60;
 
         private int score = 0;
@@ -40,9 +43,12 @@ namespace QuickMath
 
             txtTimer = FindViewById<TextView>(Resource.Id.txttimer);
             txtScore = FindViewById<TextView>(Resource.Id.txtstreak);
-
+            txtnumber1 = FindViewById<TextView>(Resource.Id.txtnumber1);
+            txtnumber2 = FindViewById<TextView>(Resource.Id.txtnumber2);
             var correctAns = FindViewById<Button>(Resource.Id.btnanswer1);
             var wrongAns = FindViewById<Button>(Resource.Id.btnanswer2);
+            txtnumber1.Text = r.Next(100).ToString();
+            txtnumber2.Text = r.Next(100).ToString();
 
             correctAns.Click += delegate
             {
@@ -79,6 +85,8 @@ namespace QuickMath
             timer.Start();
         }
 
+        
+        
         public override void OnBackPressed()
         {
             Toast.MakeText(this, "Spel beëindigd.", ToastLength.Short).Show();

@@ -2916,13 +2916,13 @@ containing a value of this type.
         public static int abc_textfield_search_material=0x7f020051;
         public static int abc_vector_test=0x7f020052;
         public static int avd_hide_password=0x7f020053;
-        public static int avd_hide_password_1=0x7f02006d;
-        public static int avd_hide_password_2=0x7f02006e;
-        public static int avd_hide_password_3=0x7f02006f;
+        public static int avd_hide_password_1=0x7f02006e;
+        public static int avd_hide_password_2=0x7f02006f;
+        public static int avd_hide_password_3=0x7f020070;
         public static int avd_show_password=0x7f020054;
-        public static int avd_show_password_1=0x7f020070;
-        public static int avd_show_password_2=0x7f020071;
-        public static int avd_show_password_3=0x7f020072;
+        public static int avd_show_password_1=0x7f020071;
+        public static int avd_show_password_2=0x7f020072;
+        public static int avd_show_password_3=0x7f020073;
         public static int design_bottom_navigation_item_background=0x7f020055;
         public static int design_fab_background=0x7f020056;
         public static int design_ic_visibility=0x7f020057;
@@ -2941,12 +2941,13 @@ containing a value of this type.
         public static int notification_bg_normal=0x7f020064;
         public static int notification_bg_normal_pressed=0x7f020065;
         public static int notification_icon_background=0x7f020066;
-        public static int notification_template_icon_bg=0x7f02006b;
-        public static int notification_template_icon_low_bg=0x7f02006c;
+        public static int notification_template_icon_bg=0x7f02006c;
+        public static int notification_template_icon_low_bg=0x7f02006d;
         public static int notification_tile_bg=0x7f020067;
         public static int notify_panel_notification_icon_bg=0x7f020068;
-        public static int tooltip_frame_dark=0x7f020069;
-        public static int tooltip_frame_light=0x7f02006a;
+        public static int title=0x7f020069;
+        public static int tooltip_frame_dark=0x7f02006a;
+        public static int tooltip_frame_light=0x7f02006b;
     }
     public static final class id {
         public static int ALT=0x7f080032;
@@ -2984,15 +2985,15 @@ containing a value of this type.
         public static int beginning=0x7f08002f;
         public static int blocking=0x7f080057;
         public static int bottom=0x7f08003d;
-        public static int btnDownloadWP1=0x7f0800ad;
-        public static int btnDownloadWP2=0x7f0800ae;
-        public static int btnDownloadWP3=0x7f0800b0;
+        public static int btnDownloadWP1=0x7f0800ac;
+        public static int btnDownloadWP2=0x7f0800ad;
+        public static int btnDownloadWP3=0x7f0800af;
         public static int btnaftreksom=0x7f0800c6;
         public static int btnanswer1=0x7f0800a5;
         public static int btnanswer2=0x7f0800a6;
         public static int btnanswer3=0x7f0800a7;
         public static int btnanswer4=0x7f0800a8;
-        public static int btnback=0x7f0800c8;
+        public static int btnback=0x7f0800b0;
         public static int btngallery=0x7f08008d;
         public static int btngemixtesom=0x7f0800c7;
         public static int btninstellingen=0x7f08008e;
@@ -3004,7 +3005,6 @@ containing a value of this type.
         public static int center=0x7f080045;
         public static int center_horizontal=0x7f080046;
         public static int center_vertical=0x7f080047;
-        public static int checkableImageButton1=0x7f0800a9;
         public static int checkbox=0x7f080073;
         public static int chronometer=0x7f0800bd;
         public static int clip_horizontal=0x7f08004e;
@@ -3043,9 +3043,9 @@ containing a value of this type.
         public static int icon_group=0x7f0800c2;
         public static int ifRoom=0x7f08003a;
         public static int image=0x7f08005f;
-        public static int imgWallpaper1=0x7f0800ab;
-        public static int imgWallpaper2=0x7f0800ac;
-        public static int imgWallpaper3=0x7f0800af;
+        public static int imgWallpaper1=0x7f0800aa;
+        public static int imgWallpaper2=0x7f0800ab;
+        public static int imgWallpaper3=0x7f0800ae;
         public static int imglogo=0x7f08008b;
         public static int info=0x7f0800be;
         public static int italic=0x7f080059;
@@ -3056,9 +3056,9 @@ containing a value of this type.
         public static int line3=0x7f080018;
         public static int listMode=0x7f08001d;
         public static int list_item=0x7f080061;
-        public static int masked=0x7f0800cb;
+        public static int masked=0x7f0800ca;
         public static int media_actions=0x7f0800b7;
-        public static int message=0x7f0800c9;
+        public static int message=0x7f0800c8;
         public static int middle=0x7f080031;
         public static int mini=0x7f080053;
         public static int multiply=0x7f080028;
@@ -3076,7 +3076,7 @@ containing a value of this type.
         public static int progress_circular=0x7f080006;
         public static int progress_horizontal=0x7f080007;
         public static int radio=0x7f080075;
-        public static int relativeLayout1=0x7f0800aa;
+        public static int relativeLayout1=0x7f0800a9;
         public static int right=0x7f08004a;
         public static int right_icon=0x7f0800bf;
         public static int right_side=0x7f0800bb;
@@ -3150,7 +3150,7 @@ containing a value of this type.
         public static int up=0x7f080009;
         public static int useLogo=0x7f080026;
         public static int view_offset_helper=0x7f080016;
-        public static int visible=0x7f0800ca;
+        public static int visible=0x7f0800c9;
         public static int withText=0x7f08003c;
         public static int wrap_content=0x7f08002e;
     }

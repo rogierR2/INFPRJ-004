@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="QuickMath.QuickMath" android:installLocation="auto">
-  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="23" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="QuickMath.QuickMath" android:installLocation="preferExternal">
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="21" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.INTERNET" />
   <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.app.Application" android:debuggable="true">
-    <activity android:label="exercise" android:name="md5f6ad501d15e0e8ad1d0373d2f90d1e7e.exercise" />
-    <activity android:label="Gallery" android:name="md5f6ad501d15e0e8ad1d0373d2f90d1e7e.Gallery" />
-    <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="md5f6ad501d15e0e8ad1d0373d2f90d1e7e.MainActivity">
+    <activity android:label="exercise" android:name="md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseInput" />
+    <activity android:label="exercise" android:name="md5c1b60530e856ee57aed04b83b21cd6fa.exercise" />
+    <activity android:label="Gallery" android:name="md5c1b60530e856ee57aed04b83b21cd6fa.Gallery" />
+    <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="md5c1b60530e856ee57aed04b83b21cd6fa.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="selectdiff" android:name="md5f6ad501d15e0e8ad1d0373d2f90d1e7e.selectdiff" />
+    <activity android:label="selectdiff" android:name="md5c1b60530e856ee57aed04b83b21cd6fa.selectdiff" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="QuickMath.QuickMath.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

@@ -34,7 +34,7 @@ namespace QuickMath
 
             btnOptelsom.Click += (s, e) =>
             {
-                Intent nextActivity = new Intent(this, typeof(exercise));
+                Intent nextActivity = new Intent(this, typeof(ExerciseInput));
                 StartActivity(nextActivity);
             };
 

@@ -446,20 +446,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rogie\\.nuget\\packages\\": {}
+    "C:\\Users\\maher\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Rogier\\Documenten\\INFPRJ 4-2\\INFPRJ-004\\QuickMath\\QuickMath\\QuickMath.csproj",
+      "projectUniqueName": "D:\\Docu\\Projects\\INFPRJ-004\\QuickMath\\QuickMath\\QuickMath.csproj",
       "projectName": "QuickMath",
-      "projectPath": "D:\\Rogier\\Documenten\\INFPRJ 4-2\\INFPRJ-004\\QuickMath\\QuickMath\\QuickMath.csproj",
-      "packagesPath": "C:\\Users\\rogie\\.nuget\\packages\\",
-      "outputPath": "D:\\Rogier\\Documenten\\INFPRJ 4-2\\INFPRJ-004\\QuickMath\\QuickMath\\obj\\",
+      "projectPath": "D:\\Docu\\Projects\\INFPRJ-004\\QuickMath\\QuickMath\\QuickMath.csproj",
+      "packagesPath": "C:\\Users\\maher\\.nuget\\packages\\",
+      "outputPath": "D:\\Docu\\Projects\\INFPRJ-004\\QuickMath\\QuickMath\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\rogie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maher\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
