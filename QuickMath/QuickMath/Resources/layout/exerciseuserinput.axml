@@ -86,4 +86,17 @@
         android:layout_below="@+id/txtnumber1"
         android:id="@+id/input"
         android:layout_marginLeft="40dp" />
+    <Button
+        android:text="Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input"
+        android:id="@+id/check"
+        android:layout_marginLeft="130dp" />
+    <EditText
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/check"
+        android:id="@+id/editText1" />
 </RelativeLayout>

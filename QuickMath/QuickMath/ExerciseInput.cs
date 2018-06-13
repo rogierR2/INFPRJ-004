@@ -34,6 +34,7 @@ namespace QuickMath
             // Create your application here
 
             var btnStop = FindViewById<Button>(Resource.Id.btnstop);
+            var btnCheck = FindViewById<Button>(Resource.Id.check);
 
             btnStop.Click += delegate
             {
@@ -46,21 +47,50 @@ namespace QuickMath
             txtScore = FindViewById<TextView>(Resource.Id.txtstreak);
             txtnumber1 = FindViewById<TextView>(Resource.Id.txtnumber1);
             txtnumber2 = FindViewById<TextView>(Resource.Id.txtnumber2);
+            EditText txtnumber3 = FindViewById<EditText>(Resource.Id.editText1);
             input = FindViewById<EditText>(Resource.Id.input);
             /*var correctAns = FindViewById<Button>(Resource.Id.btnanswer1);
             var wrongAns = FindViewById<Button>(Resource.Id.btnanswer2);*/
+            
+            
+           
             txtnumber1.Text = r.Next(100).ToString();
             txtnumber2.Text = r.Next(100).ToString();
             int txtnum1 = Int32.Parse(txtnumber1.Text);
             int txtnum2 = Int32.Parse(txtnumber2.Text);
             int textnumbersum = txtnum1 + txtnum2;
-
-            if (input.Text == textnumbersum.ToString())
-            {
-                Intent nextActivity = new Intent(this, typeof(ExerciseInput));
-                StartActivity(nextActivity);
-            }
             
+           
+            btnCheck.Click += delegate
+            {
+
+                if (input.Text == textnumbersum.ToString())
+                {
+                    score += 1;
+                    txtScore.Text = score + "🔥";
+
+                }
+                if (input.Text != textnumbersum.ToString())
+                {
+                    score = 0;
+                    count -= 5;
+                    txtScore.Text = score + "🔥";
+                    txtnumber3.Text = textnumbersum.ToString();
+                    
+
+                    if (count <= 0)
+                    {
+                        Toast.MakeText(this, "Spel beëindigd.", ToastLength.Short).Show();
+                        timer.Stop();
+                        Finish();
+                    }
+
+                }
+
+            };
+            
+
+
         }
 
         protected override void OnResume()
