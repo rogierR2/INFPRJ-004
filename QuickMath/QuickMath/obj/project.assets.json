@@ -451,11 +451,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Docu\\Projects\\INFPRJ-004\\QuickMath\\QuickMath\\QuickMath.csproj",
+      "projectUniqueName": "C:\\Users\\maher\\OneDrive\\Documents\\GitHub\\INFPRJ-004\\QuickMath\\QuickMath\\QuickMath.csproj",
       "projectName": "QuickMath",
-      "projectPath": "D:\\Docu\\Projects\\INFPRJ-004\\QuickMath\\QuickMath\\QuickMath.csproj",
+      "projectPath": "C:\\Users\\maher\\OneDrive\\Documents\\GitHub\\INFPRJ-004\\QuickMath\\QuickMath\\QuickMath.csproj",
       "packagesPath": "C:\\Users\\maher\\.nuget\\packages\\",
-      "outputPath": "D:\\Docu\\Projects\\INFPRJ-004\\QuickMath\\QuickMath\\obj\\",
+      "outputPath": "C:\\Users\\maher\\OneDrive\\Documents\\GitHub\\INFPRJ-004\\QuickMath\\QuickMath\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
