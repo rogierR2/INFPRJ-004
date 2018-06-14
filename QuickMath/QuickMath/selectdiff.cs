@@ -34,19 +34,19 @@ namespace QuickMath
 
             btnOptelsom.Click += (s, e) =>
             {
-                Intent nextActivity = new Intent(this, typeof(ExerciseInput));
+                Intent nextActivity = new Intent(this, typeof(ExerciseA));
                 StartActivity(nextActivity);
             };
 
             btnAftreksom.Click += (s, e) =>
             {
-                Intent nextActivity = new Intent(this, typeof(exercise));
+                Intent nextActivity = new Intent(this, typeof(ExerciseM));
                 StartActivity(nextActivity);
             };
 
             btnGemixtesom.Click += (s, e) =>
             {
-                Intent nextActivity = new Intent(this, typeof(exercise));
+                Intent nextActivity = new Intent(this, typeof(ExerciseMix));
                 StartActivity(nextActivity);
             };
         }

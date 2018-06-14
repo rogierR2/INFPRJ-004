@@ -2,14 +2,18 @@ QuickMath.DownloadWallpaper, QuickMath;md5c1b60530e856ee57aed04b83b21cd6fa.Downl
 QuickMath.DownloadWallpaper, QuickMath, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c1b60530e856ee57aed04b83b21cd6fa.DownloadWallpaper
 QuickMath.DownloadWallpaper;md5c1b60530e856ee57aed04b83b21cd6fa.DownloadWallpaper
 quickmath.DownloadWallpaper;md5c1b60530e856ee57aed04b83b21cd6fa.DownloadWallpaper
-QuickMath.ExerciseInput, QuickMath;md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseInput
-QuickMath.ExerciseInput, QuickMath, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseInput
-QuickMath.ExerciseInput;md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseInput
-quickmath.ExerciseInput;md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseInput
-QuickMath.exercise, QuickMath;md5c1b60530e856ee57aed04b83b21cd6fa.exercise
-QuickMath.exercise, QuickMath, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c1b60530e856ee57aed04b83b21cd6fa.exercise
-QuickMath.exercise;md5c1b60530e856ee57aed04b83b21cd6fa.exercise
-quickmath.exercise;md5c1b60530e856ee57aed04b83b21cd6fa.exercise
+QuickMath.ExerciseMix, QuickMath;md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseMix
+QuickMath.ExerciseMix, QuickMath, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseMix
+QuickMath.ExerciseMix;md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseMix
+quickmath.ExerciseMix;md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseMix
+QuickMath.ExerciseM, QuickMath;md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseM
+QuickMath.ExerciseM, QuickMath, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseM
+QuickMath.ExerciseM;md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseM
+quickmath.ExerciseM;md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseM
+QuickMath.ExerciseA, QuickMath;md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseA
+QuickMath.ExerciseA, QuickMath, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseA
+QuickMath.ExerciseA;md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseA
+quickmath.ExerciseA;md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseA
 QuickMath.Gallery, QuickMath;md5c1b60530e856ee57aed04b83b21cd6fa.Gallery
 QuickMath.Gallery, QuickMath, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c1b60530e856ee57aed04b83b21cd6fa.Gallery
 QuickMath.Gallery;md5c1b60530e856ee57aed04b83b21cd6fa.Gallery

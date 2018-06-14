@@ -5,8 +5,9 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.INTERNET" />
   <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.app.Application" android:debuggable="true">
-    <activity android:label="exercise" android:name="md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseInput" />
-    <activity android:label="exercise" android:name="md5c1b60530e856ee57aed04b83b21cd6fa.exercise" />
+    <activity android:label="exercise" android:name="md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseMix" />
+    <activity android:label="exercise" android:name="md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseM" />
+    <activity android:label="exerciseinputA" android:name="md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseA" />
     <activity android:label="Gallery" android:name="md5c1b60530e856ee57aed04b83b21cd6fa.Gallery" />
     <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="md5c1b60530e856ee57aed04b83b21cd6fa.MainActivity">
       <intent-filter>

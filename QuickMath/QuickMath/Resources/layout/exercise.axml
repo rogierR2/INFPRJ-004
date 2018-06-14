@@ -79,38 +79,24 @@
         android:layout_marginTop="80.0dp"
         android:layout_marginLeft="13.4dp"
         android:textSize="100.0dp" />
-    <Button
-        android:text="0"
-        android:layout_width="170.0dp"
-        android:layout_height="123.0dp"
+    <EditText
+        android:inputType="number"
+        android:layout_width="284.3dp"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/txtnumber1"
-        android:id="@+id/btnanswer1"
-        android:layout_marginLeft="4.0dp"
-        android:layout_marginRight="2.0dp" />
+        android:id="@+id/input"
+        android:layout_marginLeft="40dp" />
     <Button
-        android:text="1"
-        android:layout_width="170.0dp"
-        android:layout_height="123.0dp"
-        android:layout_below="@+id/txtnumber2"
-        android:id="@+id/btnanswer2"
-        android:layout_toRightOf="@id/btnanswer1"
-        android:layout_marginRight="4.0dp"
-        android:layout_marginLeft="2.0dp" />
-    <Button
-        android:text="2"
-        android:layout_width="170.0dp"
-        android:layout_height="123.0dp"
-        android:layout_below="@+id/btnanswer1"
-        android:id="@+id/btnanswer3"
-        android:layout_marginLeft="4.0dp"
-        android:layout_marginRight="2.0dp" />
-    <Button
-        android:text="3"
-        android:layout_width="170.0dp"
-        android:layout_height="123.0dp"
-        android:layout_below="@id/btnanswer2"
-        android:id="@+id/btnanswer4"
-        android:layout_toRightOf="@+id/btnanswer3"
-        android:layout_marginRight="4.0dp"
-        android:layout_marginLeft="2.0dp" />
+        android:text="Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input"
+        android:id="@+id/check"
+        android:layout_marginLeft="130dp" />
+    <EditText
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/check"
+        android:id="@+id/editText1" />
 </RelativeLayout>
