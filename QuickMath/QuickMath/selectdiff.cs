@@ -15,6 +15,12 @@ namespace QuickMath
     [Activity(Label = "selectdiff")]
     public class selectdiff : Activity
     {
+        public static int cntAreeks;
+        public static int cntMreeks;
+        public static int cntMixreeks;
+        private TextView highscoreA;
+        private TextView highscoreM;
+        private TextView highscoreMix;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -22,11 +28,17 @@ namespace QuickMath
             // Create your application here
             SetContentView(Resource.Layout.selectdiff);
 
+            highscoreA = FindViewById<TextView>(Resource.Id.highscoreA);
+            highscoreM = FindViewById<TextView>(Resource.Id.highscoreM);
+            highscoreMix = FindViewById<TextView>(Resource.Id.highscoreMix);
             var btnOptelsom = FindViewById<Button>(Resource.Id.btnoptelsom);
             var btnAftreksom = FindViewById<Button>(Resource.Id.btnaftreksom);
             var btnGemixtesom = FindViewById<Button>(Resource.Id.btngemixtesom);
             var btnBack = FindViewById<Button>(Resource.Id.btnback);
 
+            highscoreA.Text = "Hoogste optelsommen reeks:" + cntAreeks;
+            highscoreM.Text = "Hoogste aftreksommen reeks:" + cntMreeks;
+            highscoreMix.Text = "Hoogste mix reeks:" + cntMixreeks;
             btnBack.Click += delegate
             {
                 Finish();

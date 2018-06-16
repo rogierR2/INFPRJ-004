@@ -20,7 +20,7 @@
         android:id="@+id/btnstart"
         android:layout_marginLeft="91.6dp"
         android:layout_marginRight="93.7dp"
-        android:layout_marginBottom="112.7dp"
+        android:layout_marginBottom="81.3dp"
         android:layout_marginTop="14.9dp" />
     <Button
         android:text="Galerij"

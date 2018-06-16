@@ -145,5 +145,3 @@ D:\Docu\Projects\INFPRJ-004\QuickMath\QuickMath\obj\Debug\android\assets\System.
 D:\Docu\Projects\INFPRJ-004\QuickMath\QuickMath\obj\Debug\android\assets\System.Xml.pdb
 D:\Docu\Projects\INFPRJ-004\QuickMath\QuickMath\obj\Debug\QuickMath.csprojResolveAssemblyReference.cache
 D:\Docu\Projects\INFPRJ-004\QuickMath\QuickMath\obj\Debug\res\layout\instelling.xml
-D:\Docu\Projects\INFPRJ-004\QuickMath\QuickMath\bin\Debug\QuickMath.dll
-D:\Docu\Projects\INFPRJ-004\QuickMath\QuickMath\obj\Debug\linksrc\QuickMath.dll.mdb

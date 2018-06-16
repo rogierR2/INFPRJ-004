@@ -9,7 +9,6 @@ namespace QuickMath
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
-
         //FrameLayout btnStart, btnGallery, btnInstellingen;
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -22,6 +21,7 @@ namespace QuickMath
             var btnStart = FindViewById<Button>(Resource.Id.btnstart);
             var btnGallery = FindViewById<Button>(Resource.Id.btngallery);
             var btnInstellingen = FindViewById<Button>(Resource.Id.btninstellingen);
+           
 
             btnStart.Click += (s, e) =>
             {

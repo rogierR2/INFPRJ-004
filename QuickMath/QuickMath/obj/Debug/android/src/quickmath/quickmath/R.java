@@ -3038,6 +3038,9 @@ containing a value of this type.
         public static final int fixed=0x7f080054;
         public static final int forever=0x7f080058;
         public static final int ghost_view=0x7f08000a;
+        public static final int highscoreA=0x7f0800cc;
+        public static final int highscoreM=0x7f0800cd;
+        public static final int highscoreMix=0x7f0800ce;
         public static final int home=0x7f080005;
         public static final int homeAsUp=0x7f080021;
         public static final int icon=0x7f080062;
@@ -3058,9 +3061,9 @@ containing a value of this type.
         public static final int line3=0x7f080018;
         public static final int listMode=0x7f08001d;
         public static final int list_item=0x7f080061;
-        public static final int masked=0x7f0800ce;
+        public static final int masked=0x7f0800d1;
         public static final int media_actions=0x7f0800bb;
-        public static final int message=0x7f0800cc;
+        public static final int message=0x7f0800cf;
         public static final int middle=0x7f080031;
         public static final int mini=0x7f080053;
         public static final int mode=0x7f0800b4;
@@ -3154,7 +3157,7 @@ containing a value of this type.
         public static final int up=0x7f080009;
         public static final int useLogo=0x7f080026;
         public static final int view_offset_helper=0x7f080016;
-        public static final int visible=0x7f0800cd;
+        public static final int visible=0x7f0800d0;
         public static final int withText=0x7f08003c;
         public static final int wrap_content=0x7f08002e;
     }

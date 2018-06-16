@@ -32,7 +32,29 @@
         android:layout_height="wrap_content"
         android:id="@+id/btngemixtesom"
         android:layout_marginLeft="70.0dp"
-        android:layout_marginRight="70.0dp" />
+        android:layout_marginRight="70.0dp"
+        android:layout_marginBottom="41.0dp" />
+    <TextView
+        android:text="Hoogste optelsommen reeks:0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/highscoreA"
+        android:textSize="20dp"
+        android:layout_marginLeft="43.4dp" />
+    <TextView
+        android:text="Hoogste aftreksommen reeks:0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/highscoreM"
+        android:textSize="20dp"
+        android:layout_marginLeft="43.4dp" />
+    <TextView
+        android:text="Hoogste mix reeks:0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/highscoreMix"
+        android:textSize="20dp"
+        android:layout_marginLeft="43.4dp" />
     <Button
         android:text="Terug"
         android:layout_width="match_parent"

@@ -78,6 +78,10 @@ namespace QuickMath
                 if (input.Text == textnumbersum.ToString())
                 {
                     score += 1;
+                    if (score > selectdiff.cntAreeks)
+                    {
+                        selectdiff.cntAreeks = score;
+                    }
                     if (score > 2)
                     {
                         txtScore.Text = "Reeks:" + score + "🔥";
