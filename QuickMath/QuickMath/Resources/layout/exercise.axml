@@ -26,14 +26,14 @@
         android:layout_alignWithParentIfMissing="true"
         android:layout_marginLeft="0.0dp" />
     <TextView
-        android:text="0🔥"
+        android:text="Reeks:0"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/btnstop"
         android:id="@+id/txtstreak"
         android:layout_marginTop="5.0dp"
-        android:layout_marginLeft="38.3dp"
+        android:layout_marginLeft="0.0dp"
         android:layout_marginRight="5.0dp"
         android:textSize="30.0dp" />
     <TextView
@@ -85,18 +85,24 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtnumber1"
         android:id="@+id/input"
-        android:layout_marginLeft="40dp" />
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100.0dp" />
     <Button
         android:text="Check"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/input"
         android:id="@+id/check"
-        android:layout_marginLeft="130dp" />
-    <EditText
-        android:inputType="number"
-        android:layout_width="wrap_content"
+        android:layout_marginLeft="150dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="302.3dp"
         android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/txtnumber2"
         android:layout_below="@id/check"
-        android:id="@+id/editText1" />
+        android:id="@+id/editText1"
+        android:layout_marginLeft="-200.0dp"
+        android:layout_marginRight="41.2dp"
+        android:layout_marginBottom="0.4dp"
+        android:layout_marginTop="31.3dp" />
 </RelativeLayout>

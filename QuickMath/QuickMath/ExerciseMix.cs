@@ -21,6 +21,7 @@ namespace QuickMath
         private TextView txtScore;
         private TextView txtnumber1;
         private TextView txtnumber2;
+        private TextView txtnumber3;
         private TextView txtplusmin;
         private EditText input;
         private int count = 60;
@@ -48,12 +49,25 @@ namespace QuickMath
             txtScore = FindViewById<TextView>(Resource.Id.txtstreak);
             txtnumber1 = FindViewById<TextView>(Resource.Id.txtnumber1);
             txtnumber2 = FindViewById<TextView>(Resource.Id.txtnumber2);
-            EditText txtnumber3 = FindViewById<EditText>(Resource.Id.editText1);
+            txtnumber3 = FindViewById<TextView>(Resource.Id.editText1);
             txtplusmin = FindViewById<TextView>(Resource.Id.txtplusmin);
             input = FindViewById<EditText>(Resource.Id.input);
-            
-            int txtnum1 = 50 + r.Next(100);
+
+            int txtnum1 = 99 + r.Next(100);
             int txtnum2 = r.Next(100);
+
+            if (Instelling.game == "Normaal")
+            {
+                txtnum1 = 49 + r.Next(50);
+                txtnum2 = r.Next(50);
+            }
+
+            if (Instelling.game == "Makkelijk")
+            {
+                txtnum1 = 19 + r.Next(20);
+                txtnum2 = r.Next(20);
+            }
+
             txtnumber1.Text = txtnum1.ToString();
             txtnumber2.Text = txtnum2.ToString();
             int textnumbersum = txtnum1 + txtnum2;
@@ -72,15 +86,37 @@ namespace QuickMath
                 if (input.Text == textnumbersum.ToString())
                 {
                     score += 1;
-                    txtScore.Text = score + "🔥";
+                    if (score > 2)
+                    {
+                        txtScore.Text = "Reeks:" + score + "🔥";
+                    }
+                    else
+                    {
+                        txtScore.Text = "Reeks:" + score;
+                    }
 
+                    txtnumber3.Text = "Correct";
 
-                    txtnum1 = 50 + r.Next(100);
-                    txtnum2 = r.Next(100);
+                    if (Instelling.game == "Moeilijk")
+                    {
+                        txtnum1 = 99 + r.Next(100);
+                        txtnum2 = r.Next(100);
+                    }
+
+                    if (Instelling.game == "Normaal")
+                    {
+                        txtnum1 = 49 + r.Next(50);
+                        txtnum2 = r.Next(50);
+                    }
+
+                    if (Instelling.game == "Makkelijk")
+                    {
+                        txtnum1 = 19 + r.Next(20);
+                        txtnum2 = r.Next(20);
+                    }
+
                     txtnumber1.Text = txtnum1.ToString();
                     txtnumber2.Text = txtnum2.ToString();
-
-                    txtnumber3.Text = "";
                     input.Text = "";
 
                     mix = r.Next(2);
@@ -99,8 +135,8 @@ namespace QuickMath
                 {
                     score = 0;
                     count -= 5;
-                    txtScore.Text = score + "🔥";
-                    txtnumber3.Text = textnumbersum.ToString();
+                    txtScore.Text = "Reeks:" + score;
+                    txtnumber3.Text = "Verkeerd: het antwoord is " + textnumbersum.ToString() + " hierbij -5 tijd";
                     input.Text = "";
 
                     if (count <= 0)

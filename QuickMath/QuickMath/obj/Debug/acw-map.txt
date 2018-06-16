@@ -18,6 +18,10 @@ QuickMath.Gallery, QuickMath;md5c1b60530e856ee57aed04b83b21cd6fa.Gallery
 QuickMath.Gallery, QuickMath, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c1b60530e856ee57aed04b83b21cd6fa.Gallery
 QuickMath.Gallery;md5c1b60530e856ee57aed04b83b21cd6fa.Gallery
 quickmath.Gallery;md5c1b60530e856ee57aed04b83b21cd6fa.Gallery
+QuickMath.Instelling, QuickMath;md5c1b60530e856ee57aed04b83b21cd6fa.Instelling
+QuickMath.Instelling, QuickMath, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c1b60530e856ee57aed04b83b21cd6fa.Instelling
+QuickMath.Instelling;md5c1b60530e856ee57aed04b83b21cd6fa.Instelling
+quickmath.Instelling;md5c1b60530e856ee57aed04b83b21cd6fa.Instelling
 QuickMath.MainActivity, QuickMath;md5c1b60530e856ee57aed04b83b21cd6fa.MainActivity
 QuickMath.MainActivity, QuickMath, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c1b60530e856ee57aed04b83b21cd6fa.MainActivity
 QuickMath.MainActivity;md5c1b60530e856ee57aed04b83b21cd6fa.MainActivity

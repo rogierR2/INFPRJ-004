@@ -9,6 +9,7 @@
     <activity android:label="exercise" android:name="md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseM" />
     <activity android:label="exerciseinputA" android:name="md5c1b60530e856ee57aed04b83b21cd6fa.ExerciseA" />
     <activity android:label="Gallery" android:name="md5c1b60530e856ee57aed04b83b21cd6fa.Gallery" />
+    <activity android:label="Instelling" android:name="md5c1b60530e856ee57aed04b83b21cd6fa.Instelling" />
     <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="md5c1b60530e856ee57aed04b83b21cd6fa.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

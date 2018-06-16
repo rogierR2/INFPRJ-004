@@ -34,6 +34,12 @@ namespace QuickMath
                 Intent nextActivity = new Intent(this, typeof(Gallery));
                 StartActivity(nextActivity);
             };
+
+            btnInstellingen.Click += (s, e) =>
+            {
+                Intent nextActivity = new Intent(this, typeof(Instelling));
+                StartActivity(nextActivity);
+            };
         }
     }
 }
