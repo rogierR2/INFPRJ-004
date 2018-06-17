@@ -21,6 +21,7 @@ namespace QuickMath
         private ProgressDialog pDialog;
         private ImageView imgView;
         private Context context;
+        public static int num;
                
         public DownloadWallpaper(Context context, ImageView imgView)
         {
@@ -31,7 +32,7 @@ namespace QuickMath
         protected override void OnPostExecute(string result)
         {
             string storagePath = Android.OS.Environment.ExternalStorageDirectory.Path;
-            string filePath = System.IO.Path.Combine(storagePath, "QuickMath_Wallpaper.jpg");
+            string filePath = System.IO.Path.Combine(storagePath, ("Quickmathwallpaper" + num + ".jpg" ));
 
             pDialog.Dismiss();
             imgView.SetImageDrawable(Drawable.CreateFromPath(filePath));
@@ -61,7 +62,7 @@ namespace QuickMath
         protected override string RunInBackground(params string[] @params)
         {
             string storagePath = Android.OS.Environment.ExternalStorageDirectory.Path;
-            string filePath = System.IO.Path.Combine(storagePath, "QuickMath_Wallpaper.jpg");
+            string filePath = System.IO.Path.Combine(storagePath, ("Quickmathwallpaper" + num + ".jpg"));
             int count = 0;
 
             try
