@@ -40,7 +40,7 @@
         android:layout_marginLeft="18.3dp"
         android:textSize="15dp" />
     <TextView
-        android:text="Text"
+        android:text="Makkelijk"
         android:layout_width="136.0dp"
         android:layout_height="19.7dp"
         android:id="@+id/mode"

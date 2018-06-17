@@ -28,7 +28,8 @@ namespace QuickMath
             var btnMoeilijk = FindViewById<Button>(Resource.Id.btnMoeilijk);
             var btnBack = FindViewById<Button>(Resource.Id.btnback);
             mode = FindViewById<TextView>(Resource.Id.mode);
-            mode.Text = "Makkelijk";
+            mode.Text = game;
+            
 
 
             btnMakkelijk.Click += delegate
